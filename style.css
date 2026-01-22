@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* header part design
+navbar design */
+.nav-container {
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding: 24px 200px;
+    border-bottom: 1px solid #412567;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.company-logo img {
+    width: 219px;
+    height: 32px;
+}
+
+.nav-container li {
+    list-style-type: none;
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-container .nav-sub-btn button {
+    width: 135px;
+    height: 44px;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
