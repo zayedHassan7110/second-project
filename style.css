@@ -61,3 +61,107 @@ navbar design */
     justify-content: center;
     align-items: center;
 }
+
+/* hero section design */
+
+.hero-section {
+    max-width: 1600px;
+    min-height: 760px;
+    margin: 0 auto;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 101px 525px;
+}
+
+.hero-content {
+    width: 550px;
+    height: 558px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.hero-content .circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url('./assets/hero-circle.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.new-icon {
+    position: fixed;
+    right: 40.7916%;
+    top: 20.19791%;
+}
+
+.hero-content .hero-subs-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero-content .hero-subs-section p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero-btn {
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.hero-btn .btn-one {
+    width: 201px;
+    height: 44px;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(to right top, #F7E93F, #FB09B4, #9100F8);
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btn .btn-one .btnone-text {
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1.33px;
+}
+
+.hero-btn .btn-one .spotify-icon {
+    margin-top: 2px;
+}
+
+.hero-btn .btn-two {
+    width: 147px;
+    height: 44px;
+    border: none;
+    background: none;
+    border: 1px solid #00FF88;
+    border-radius: 100px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-btn .btn-two .btntwo-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+    letter-spacing: 0.2px;
+}
+
+.hero-btn .btn-two .msg-icon {
+    margin-top: 3px;
+}
