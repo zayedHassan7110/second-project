@@ -335,6 +335,10 @@ navbar design */
 
 }
 
+.feature {
+    margin-bottom: 120px;
+}
+
 .feature .feature-cards {
     display: flex;
     gap: 30px;
@@ -380,8 +384,81 @@ navbar design */
     font-weight: 600;
 }
 
+.feature .feature-card-one .time img {
+    width: 20px;
+    height: 20px;
+}
+
 .feature .feature-card-one .time {
     display: flex;
     gap: 6px;
+}
 
+/* meet the host part design */
+
+.meet-host {
+    width: 1200px;
+    /* background-color: red; */
+}
+
+.meet-host>h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-profile {
+    height: 280px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.host-profile img {
+    width: 200px;
+    height: 200px;
+}
+
+.host-profile .host-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.host-profile h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.host-profile p {
+    color: white;
+    font-size: 16px;
+    opacity: 60%;
+    line-height: 24px;
+}
+
+.host-social ul {
+    display: flex;
+    gap: 8px;
+}
+
+.host-social ul li {
+    list-style-type: none;
+}
+
+.host-social ul li a {
+    text-decoration: none;
+}
+
+.host-social ul li a img {
+    width: 40px;
+    height: 40px;
 }
