@@ -76,8 +76,8 @@ navbar design */
 }
 
 .hero-content {
-    width: 550px;
-    height: 558px;
+    max-width: 550px;
+    /* height: 558px; */
     margin: 0 auto;
     /* background-color: red; */
 }
@@ -95,7 +95,7 @@ navbar design */
 }
 
 .new-icon {
-    position: fixed;
+    position: absolute;
     right: 40.7916%;
     top: 20.19791%;
 }
@@ -111,6 +111,7 @@ navbar design */
     color: white;
     font-size: 16px;
     text-align: center;
+    opacity: 80%;
 }
 
 .hero-btn {
@@ -164,4 +165,76 @@ navbar design */
 
 .hero-btn .btn-two .msg-icon {
     margin-top: 3px;
+}
+
+/* about section design */
+.about-container {
+    max-width: 1600px;
+    /* height: 646px; */
+    padding: 50px 200px 120px 200px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+
+.about-container .about-text {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.about-container .about-text h2,
+.about-container .about-text p {
+    text-align: center;
+    color: white;
+}
+
+.about-container .about-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-container .about-text p {
+    line-height: 32px;
+    color: white;
+    opacity: 80%;
+}
+
+.hr-two {
+    border: 1px solid white;
+    opacity: 10%;
+    margin-bottom: 80px;
+}
+
+.about-cards {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-cards div {
+    width: 240px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-cards h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #00FF88;
+    margin-bottom: 1px;
+}
+
+.about-cards p {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    opacity: 80%;
+}
+
+.about-cards .card-three h2 {
+    margin-top: -5px;
 }
