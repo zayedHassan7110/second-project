@@ -584,4 +584,31 @@ footer .copy-right {
     .about-cards h2 {
         font: 40px;
     }
+
+    /* facilities section design */
+    .facilities-container {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #230E3D;
+        padding: 40px 20px;
+    }
+
+    .facilities-container .facilities-heading {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .facilities {
+        margin-top: -40px;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facilities div {
+        width: 100%;
+        padding: 24px;
+        border-radius: 24px;
+    }
 }
