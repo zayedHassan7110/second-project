@@ -406,7 +406,7 @@ navbar design */
 }
 
 .host-profile {
-    height: 280px;
+    /* height: 280px; */
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     padding-right: 40px;
@@ -576,9 +576,14 @@ footer .copy-right {
     .about-cards {
         width: 100%;
         justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
         gap: 20px;
         padding: 0;
+    }
+
+    .about-cards div {
+        width: 180px;
     }
 
     .about-cards h2 {
@@ -611,4 +616,70 @@ footer .copy-right {
         padding: 24px;
         border-radius: 24px;
     }
+
+    /* feature part design  */
+    .feature-meet-container {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .feature-meet-container .feature {
+        width: 100%;
+    }
+
+    .feature-meet-container .feature>h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .feature .feature-cards {
+        flex-direction: column;
+    }
+
+    .feature .feature-cards .card {
+        width: 100%;
+
+    }
+
+    .feature .feature-cards .card h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .feature {
+        margin-bottom: 60px;
+    }
+
+    /* meet the host part desing  */
+
+    .meet-host {
+        width: 100%;
+
+    }
+
+    .meet-host>h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .host-profile h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .host-profile {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .host-profile .host-content {
+        align-items: center;
+    }
+
+    .host-profile .host-content p {
+        text-align: center;
+    }
+
 }
