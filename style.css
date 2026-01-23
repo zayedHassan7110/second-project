@@ -62,6 +62,10 @@ navbar design */
     align-items: center;
 }
 
+.hamburger-icon {
+    display: none;
+}
+
 /* hero section design */
 
 .hero-section {
@@ -505,7 +509,9 @@ footer .copy-right {
     opacity: 60%;
 }
 
-
+.hide {
+    display: none !important;
+}
 
 /* responsive design  */
 
@@ -554,5 +560,20 @@ footer .copy-right {
     .hero-subs-section h2 {
         font-size: 40px;
         font-weight: 800;
+    }
+
+    /* about section design */
+
+    .about-container {
+        max-width: 100%;
+        padding: 40px 20px;
+    }
+
+    .about-container .about-text {
+        max-width: 100%;
+    }
+
+    .about-cards {
+        flex-wrap: wrap;
     }
 }
