@@ -810,3 +810,84 @@ button,
         gap: 8px;
     }
 }
+
+@media screen and (min-width: 993px) and (max-width: 1599px) {
+
+    .nav-container,
+    .hero-section,
+    .about-container,
+    .facilities-container,
+    .feature-meet-container,
+    footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* navbar */
+    .nav-container {
+        padding: 1.5rem 7rem;
+    }
+
+    /* hero section */
+    .hero-section {
+        height: auto;
+        padding: 6rem 7rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-content {
+        max-width: 34.375rem;
+        margin: 0 auto;
+    }
+
+    .hero-content .circle {
+        width: 21.875rem;
+        height: 21.875rem;
+    }
+
+    .gradient-text {
+        font-size: 3.75rem;
+    }
+
+    /* about section */
+    .about-container {
+        padding: 3.125rem 7rem 7.5rem;
+    }
+
+    .about-container .about-text {
+        width: 100%;
+    }
+
+    .facilities-container {
+        padding: 7.5rem 7rem;
+
+    }
+
+    .facilities-container .facilities-heading {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+
+    .feature-meet-container {
+        padding: 7.5rem 7rem;
+    }
+
+    .feature-meet-container .feature,
+    .meet-host {
+        width: 100%;
+    }
+
+    /* footer */
+    footer {
+        padding: 7.5rem 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    footer .footer-content {
+        max-width: 85rem;
+        margin: 0 auto;
+    }
+}
