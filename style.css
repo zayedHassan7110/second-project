@@ -407,6 +407,7 @@ navbar design */
 
 .host-profile {
     /* height: 280px; */
+    padding: 40px;
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     padding-right: 40px;
@@ -464,38 +465,34 @@ navbar design */
 
 footer {
     max-width: 1600px;
-    height: 412px;
     margin: 0 auto;
-    padding: 120px;
+    padding: 120px 0;
     background-image: url('./assets/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 footer .footer-content {
-    width: 1360px;
-    height: 30px;
+    max-width: 1360px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-
+    text-align: center;
 }
 
 footer .footer-content>img {
     width: 410px;
     height: 60px;
-
 }
 
 footer .footer-content .footer-social {
-    height: 24px;
-    color: white;
     display: flex;
     gap: 40px;
-}
-
-footer .footer-content .footer-social div span {
+    align-items: center;
     color: white;
-    opacity: 60%;
 }
 
 footer .footer-content .footer-social div {
@@ -504,9 +501,15 @@ footer .footer-content .footer-social div {
     align-items: center;
 }
 
+footer .footer-content .footer-social div span {
+    color: white;
+    opacity: 0.6;
+}
+
 footer .copy-right {
     color: white;
-    opacity: 60%;
+    opacity: 0.6;
+    font-size: 14px;
 }
 
 .hide {
@@ -571,6 +574,11 @@ footer .copy-right {
 
     .about-container .about-text {
         max-width: 100%;
+    }
+
+    .about-container .about-text h2 {
+        font-size: 32px;
+        font-weight: 700;
     }
 
     .about-cards {
@@ -682,4 +690,47 @@ footer .copy-right {
         text-align: center;
     }
 
+    /* footer desing */
+
+    footer {
+        max-width: 100%;
+        padding: 40px 16px;
+        background-image: url('./assets/footer-bg-small-device.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    footer .footer-content>img {
+        width: 220px;
+        height: auto;
+    }
+
+    footer .copy-right {
+        font-size: 12px;
+    }
+
+    footer .footer-content {
+        max-width: 440px;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    }
+
+    footer .footer-content .footer-social {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        column-gap: 32px;
+        row-gap: 12px;
+        justify-content: center;
+    }
+
+    footer .footer-content .footer-social-one {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 }
