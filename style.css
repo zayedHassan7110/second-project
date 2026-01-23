@@ -574,6 +574,14 @@ footer .copy-right {
     }
 
     .about-cards {
+        width: 100%;
+        justify-content: center;
         flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .about-cards h2 {
+        font: 40px;
     }
 }
